@@ -19,7 +19,7 @@ namespace prsServer.Model
         [StringLength(12)]
         public string? Phone { get; set; } = string.Empty ;
         [StringLength(255)]
-        public string Email {  get; set; } = string.Empty ;
+        public string? Email {  get; set; } = string.Empty ;
         [Column(TypeName = "bit")]
         public bool IsReviewer { get; set; }
         [Column(TypeName = "bit")]
